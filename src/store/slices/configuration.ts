@@ -19,7 +19,7 @@ export const extendedApi = tmdbApi.injectEndpoints({
     getConfiguration: build.query<ConfigurationType, undefined>({
       query: () => ({
         url: "/configuration",
-        params: { api_key: TMDB_V3_API_KEY },
+        params: { api_key: 8d794ed47b2a16ce64987d3f6c8b453f },
       }),
     }),
   }),
